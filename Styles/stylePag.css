@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #14271a;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px; 
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.sidebar,
+.main-content,
+.extra-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color:#137e3e;
+    height: 250px;
+    text-align: center;
+}
+
+.main-content {
+    background-color: #0fbc54;
+}
+
+.serp {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.apagar {
+    text-align: end;
+    margin-left: 450px;
+    border-radius: 7px;
+    display: block;
+    border: 2px solid black;
+    padding: 7px;
+    background-color: #55916e;
+}
+
+.apagar:hover {
+    background-color: #c1deeb;
+}
+
+.extra-content {
+    background-color: #137e3e; /* Azul claro */
+    height: 250px;
+}
+
+.borda {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.borda a {
+    color:#4CAF50;
+}
+
+h2, h3, p {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+div a {
+    align-self: flex-end; 
+    margin-top: auto; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px auto 
+}
+
